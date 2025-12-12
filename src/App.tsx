@@ -1,14 +1,18 @@
 import './App.css'
-import SimpleForm from './formcomponents/SimpleForm'
+import AdvanceForm from './formcomponents/AdvanceForm'
+// import MultiInput from './formcomponents/MultiInput'
+// import MultiInputForm from './formcomponents/MultiInputForm'
+// import SimpleForm from './formcomponents/SimpleForm'
 
 function App() {
  
 
   return (
     <>
-      <SimpleForm />
-
-
+      {/* <SimpleForm /> */}
+{/* <MultiInputForm /> */}
+{/* <MultiInput /> */}
+<AdvanceForm />
 </>
   )
 }
