@@ -4,14 +4,14 @@ const SimpleForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   
-  const handelSubmit = (e) => {
+  const handleSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     console.log("Name", name);
     console.log("Email", email);
   };
   return (
     <div>
-      <form onSubmit={handelSubmit}>
+      <form onSubmit={handleSubmit}>
         <h1>React Form </h1>
         <label htmlFor="name">Name</label>
         <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
