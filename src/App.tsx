@@ -1,5 +1,5 @@
 import './App.css'
-import AdvanceForm from './formcomponents/AdvanceForm'
+// import AdvanceForm from './formcomponents/AdvanceForm'
 // import MultiInput from './formcomponents/MultiInput'
 // import MultiInputForm from './formcomponents/MultiInputForm'
 // import SimpleForm from './formcomponents/SimpleForm'
@@ -12,7 +12,7 @@ function App() {
       {/* <SimpleForm /> */}
 {/* <MultiInputForm /> */}
 {/* <MultiInput /> */}
-<AdvanceForm />
+{/* <AdvanceForm /> */}
 </>
   )
 }
